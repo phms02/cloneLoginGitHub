@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100');
+
+body {
+    font-family: "Roboto", Helvetica, sans-serif; 
+    /* A fonte de escrita mais próxima da fonte de escrita do GitHub que encontrei foi a Roboto; coloquei a Helvetica e a sans-serif por padrão dos meus projetos. */
+    margin-top: 50px;
+}
+
+.logo-github-svg {
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 20px;
+}
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.div-form {
+    /* DIFICULDADE EM: COLOCAR OS INPUTS UM EMBAIXO DO OUTRO COM O CSS (USEI BR NO HTML) E CENTRALIZAR A DIV DO FORMULÁRIO. */
+    font-weight: bold;
+    align-items: center;
+    border: 1px #b5b5b5 solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 750px ;
+    margin-right: 200px;
+    width: 400px;
+    display: block;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: #F5F5F5;
+}
+
+.div-form input {
+    border-radius: 5px;
+    border: 1px #FFFFFF;
+    padding-top: 5px;
+}
+
+.create-account {
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 750px;
+    margin-right: 200px;
+    width: 400px;
+}
+
+.password-reset {
+    font-size: small;
+    margin-left: 170px;
+}
+
+.div-form button {
+    border: #00933A 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #00933A;
+    border-radius: 5px;
+    padding: 5px;
+    width: 370px;
+}
+
+.div-form button:hover {
+    background-color: #00a743;
+    border: #00a743;
+}
+
+.create-account {
+    font-weight: bold;
+    text-align: center;
+    border: 1px #b5b5b5 solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.footer-div {
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-link .support-link {
+    color: #000000;
+}
+
+.footer-link .support-link:hover {
+    color:#0000FF;
+}
+
+li.footer-link {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
