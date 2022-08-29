@@ -4,6 +4,7 @@ body {
     font-family: "Roboto", Helvetica, sans-serif; 
     /* A fonte de escrita mais próxima da fonte de escrita do GitHub que encontrei foi a Roboto; coloquei a Helvetica e a sans-serif por padrão dos meus projetos. */
     margin: 2em auto;
+    position: relative;
 }
 
 .logo-github-svg {
@@ -30,7 +31,8 @@ h1 {
     display: block;
     flex-wrap: wrap;
     padding: 1rem;
-    background-color: #F5F5F5;
+    position: relative;
+    background-color: #cec9c942;
 }
 
 .div-form input {
@@ -39,6 +41,7 @@ h1 {
     height: 25px;
     width: 360px;
     padding-top: 5px;
+    position: relative;
 }
 
 .create-account {
