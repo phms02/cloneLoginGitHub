@@ -20,14 +20,13 @@ h1 {
 }
 
 .div-form {
-    /* DIFICULDADE EM: COLOCAR OS INPUTS UM EMBAIXO DO OUTRO COM O CSS (USEI BR NO HTML) E CENTRALIZAR A DIV DO FORMULÁRIO. */
     font-weight: bold;
-    align-items: center;
+    text-align: justify;
+    width: 50%;
     border: 1px #b5b5b5 solid;
     border-radius: 5px;
     box-sizing: border-box;
-    margin-left: 750px ;
-    margin-right: 200px;
+    /*  */
     width: 400px;
     display: block;
     flex-wrap: wrap;
@@ -38,15 +37,24 @@ h1 {
 .div-form input {
     border-radius: 5px;
     border: 1px #FFFFFF;
+    height: 25px;
+    width: 360px;
     padding-top: 5px;
 }
 
 .create-account {
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
+    border: 1px #b5b5b5 solid;
+    border-radius: 5px;
     margin-top: 25px;
     margin-left: 750px;
     margin-right: 200px;
-    width: 400px;
+    padding: 8px;
 }
 
 .password-reset {
@@ -67,14 +75,6 @@ h1 {
 .div-form button:hover {
     background-color: #00a743;
     border: #00a743;
-}
-
-.create-account {
-    font-weight: bold;
-    text-align: center;
-    border: 1px #b5b5b5 solid;
-    border-radius: 5px;
-    padding: 20px;
 }
 
 .footer-div {
