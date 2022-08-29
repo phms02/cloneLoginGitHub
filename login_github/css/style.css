@@ -32,7 +32,7 @@ h1 {
     flex-wrap: wrap;
     padding: 1rem;
     position: relative;
-    background-color: #cec9c942;
+    background-color: #cec9c94d;
 }
 
 .div-form input {
@@ -41,6 +41,7 @@ h1 {
     height: 25px;
     width: 360px;
     padding-top: 5px;
+    background-color: #FFFFFF;
     position: relative;
 }
 
