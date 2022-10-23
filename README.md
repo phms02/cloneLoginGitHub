@@ -14,5 +14,5 @@ HTML e CSS, apenas.
 ## O que aprendi a fazer neste projeto:
 Aprendi a fazer uma página de login onde o usuário, além de fazer o login com o seu respctivo e-mail e uma senha, pode usar o Facebook, o Twitter e/ou LinkedIn para fazer o seu login.
 
-## Link do repositório do GitHub:
-https://github.com/phms07/Clone_Github
+## Como ficou o projeto:
+![clone_github_login](https://user-images.githubusercontent.com/83307765/197417184-1949be4c-01b4-4d0e-90fa-797aec336903.png)
